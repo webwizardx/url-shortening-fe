@@ -1,6 +1,6 @@
 export default function BoostYourLinks() {
   return (
-    <section className='mb-60 flex flex-col items-center justify-center gap-4 bg-wzurl-dark-violet bg-boost-mobile bg-contain bg-right-top bg-no-repeat px-8 py-20 lg:bg-boost-desktop lg:bg-cover'>
+    <section className='flex flex-col items-center justify-center gap-4 bg-wzurl-dark-violet bg-boost-mobile bg-contain bg-right-top bg-no-repeat px-8 py-20 lg:bg-boost-desktop lg:bg-cover'>
       <h2 className='text-center text-2xl font-bold text-white'>
         Boost your links today
       </h2>

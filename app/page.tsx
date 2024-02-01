@@ -1,4 +1,10 @@
-import { BoostYourLinks, FeaturedSection, Header, Hero } from './components';
+import {
+  BoostYourLinks,
+  FeaturedSection,
+  Footer,
+  Header,
+  Hero,
+} from './components';
 
 export default function Home() {
   return (
@@ -9,6 +15,7 @@ export default function Home() {
         <FeaturedSection />
         <BoostYourLinks />
       </main>
+      <Footer />
     </>
   );
 }
