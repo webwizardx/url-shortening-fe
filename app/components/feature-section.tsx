@@ -3,7 +3,7 @@ import { WZUrlForm } from '.';
 
 export default function FeatureSection() {
   return (
-    <section className='bg-wzurl-gray-100 px-8 pb-8'>
+    <section className='bg-wzurl-gray-100 px-8 pb-16'>
       <WZUrlForm />
       <h2 className='mb-6 text-center text-3xl font-bold text-wzurl-very-dark-violet'>
         Advanced Statistics

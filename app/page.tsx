@@ -1,4 +1,4 @@
-import { FeaturedSection, Header, Hero } from './components';
+import { BoostYourLinks, FeaturedSection, Header, Hero } from './components';
 
 export default function Home() {
   return (
@@ -7,6 +7,7 @@ export default function Home() {
       <main className='overflow-hidden'>
         <Hero />
         <FeaturedSection />
+        <BoostYourLinks />
       </main>
     </>
   );
