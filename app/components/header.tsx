@@ -31,7 +31,7 @@ export default function Header() {
         </span>
         <button
           type='button'
-          className='rounded-full bg-wzurl-cyan px-8 py-3 text-sm font-semibold text-wzurl-dark-violet shadow-sm transition hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-wzurl-cyan'
+          className='rounded-full bg-wzurl-cyan px-8 py-3 text-sm font-semibold text-white shadow-sm transition hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-wzurl-cyan'
         >
           Sign Up
         </button>
@@ -76,7 +76,7 @@ export default function Header() {
             <Menu.Item
               as={'button'}
               type='button'
-              className='w-full rounded-full bg-wzurl-cyan px-4 py-3 text-sm font-semibold text-wzurl-dark-violet shadow-sm transition hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-wzurl-cyan'
+              className='w-full rounded-full bg-wzurl-cyan px-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-wzurl-cyan'
             >
               Sign Up
             </Menu.Item>

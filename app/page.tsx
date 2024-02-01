@@ -1,4 +1,4 @@
-import { Header, Hero } from './components';
+import { FeaturedSection, Header, Hero } from './components';
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <Header />
       <main className='overflow-hidden'>
         <Hero />
+        <FeaturedSection />
       </main>
     </>
   );

@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <section className='relative mx-auto flex flex-wrap items-center justify-center gap-8 pb-60 lg:mt-8 lg:max-w-7xl lg:flex-row-reverse lg:flex-nowrap lg:px-8 lg:pt-8'>
+    <section className='relative mx-auto flex flex-wrap items-center justify-center gap-8 pb-32 lg:mt-8 lg:max-w-7xl lg:flex-row-reverse lg:flex-nowrap lg:px-8 lg:pb-60 lg:pt-8'>
       <picture className='relative block aspect-video min-h-80 w-full lg:absolute lg:right-[-15%] lg:mt-16 lg:h-[600px] lg:w-[700px]'>
         <Image
           alt='Hero image'
@@ -21,7 +21,7 @@ export default function Hero() {
         </p>
         <button
           type='button'
-          className='rounded-full bg-wzurl-cyan px-12 py-3 text-sm font-semibold text-wzurl-dark-violet shadow-sm transition hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-wzurl-cyan'
+          className='rounded-full bg-wzurl-cyan px-12 py-3 text-sm font-semibold text-white shadow-sm transition hover:scale-105 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-wzurl-cyan'
         >
           Get Started
         </button>
